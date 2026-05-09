@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://maskarada.paragu-ai.com/sitemap.xml
