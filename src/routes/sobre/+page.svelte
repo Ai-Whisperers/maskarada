@@ -7,7 +7,15 @@
 	<div class="max-w-3xl mx-auto">
 		<div class="text-center mb-12">
 			<h1 class="text-4xl font-bold text-white mb-4">Sobre maškaráda</h1>
-			<div class="w-16 h-0.5 bg-blood-500 mx-auto"></div>
+			<div class="w-16 h-0.5 bg-blood-500 mx-auto mb-6"></div>
+		</div>
+
+		<!-- Hero image -->
+		<div class="mb-12 rounded-xl overflow-hidden border border-white/5">
+			<picture>
+				<source srcset="/images/photos/event_508986.webp" type="image/webp" />
+				<img src="/images/photos/event_508986.jpg" alt="Ambiente maškaráda" class="w-full h-auto object-cover" loading="lazy" />
+			</picture>
 		</div>
 
 		<div class="space-y-8 text-gray-300 leading-relaxed">
@@ -61,6 +69,21 @@
 				el juego de identidades y la libertad que viene con el anonimato. Acá no importa quién sos
 				afuera —importa lo que querés explorar adentro.
 			</p>
+		</div>
+
+		<!-- Gallery strip -->
+		<div class="mt-16">
+			<h2 class="text-2xl font-semibold text-white text-center mb-8">Momentos maškaráda</h2>
+			<div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+				{#each ['instagram_474917', 'instagram_474979', 'instagram_475433', 'instagram_476627', 'instagram_503576'] as img}
+					<div class="overflow-hidden rounded-xl border border-white/5">
+						<picture>
+							<source srcset="/images/photos/{img}.webp" type="image/webp" />
+							<img src="/images/photos/{img}.jpg" alt="Momento maškaráda" class="w-full h-full object-cover aspect-square" loading="lazy" />
+						</picture>
+					</div>
+				{/each}
+			</div>
 		</div>
 	</div>
 </div>

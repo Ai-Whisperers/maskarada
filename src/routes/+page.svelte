@@ -10,12 +10,24 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://maskarada.paragu-ai.com" />
 	<meta property="og:image" content="https://maskarada.paragu-ai.com/og-image.jpg" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 </svelte:head>
 
 <!-- Hero Section -->
 <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+	<!-- Hero background image -->
+	<div class="absolute inset-0 z-0">
+		<picture>
+			<source srcset="/images/photos/event_508619.webp" type="image/webp" />
+			<img src="/images/photos/event_508619.jpg" alt="" class="w-full h-full object-cover" aria-hidden="true" />
+		</picture>
+	</div>
 	<!-- Dark overlay gradient -->
-	<div class="absolute inset-0 bg-gradient-to-b from-[#0a0a0a] via-transparent to-[#0a0a0a] z-10"></div>
+	<div class="absolute inset-0 bg-gradient-to-b from-[#0a0a0a]/90 via-[#0a0a0a]/60 to-[#0a0a0a] z-10"></div>
 
 	<!-- Content -->
 	<div class="relative z-20 text-center px-4 max-w-3xl mx-auto">
