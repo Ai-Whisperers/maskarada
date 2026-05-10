@@ -93,6 +93,7 @@
 					@maskarada.py
 				</a>
 				<p class="text-xs text-gray-600">+18 • Eventos privados • Asunción, Paraguay</p>
+				<a href="/admin" class="block text-xs text-gray-700 hover:text-gray-500 transition-colors mt-2">admin</a>
 			</div>
 		</div>
 		<div class="mt-8 pt-6 border-t border-white/5 text-center text-xs text-gray-600">
