@@ -31,6 +31,7 @@
 			<a href="/sobre" class="hover:text-gold-400 transition-colors {$page.url.pathname === '/sobre' ? 'text-gold-400' : 'text-gray-400'}">Sobre</a>
 			<a href="/galeria" class="hover:text-gold-400 transition-colors {$page.url.pathname === '/galeria' ? 'text-gold-400' : 'text-gray-400'}">Galería</a>
 			<a href="/reglas" class="hover:text-gold-400 transition-colors {$page.url.pathname === '/reglas' ? 'text-gold-400' : 'text-gray-400'}">Reglas</a>
+			<a href="/tienda" class="hover:text-gold-400 transition-colors {$page.url.pathname === '/tienda' ? 'text-gold-400' : 'text-gray-400'}">Tienda</a>
 			<a href="/faq" class="hover:text-gold-400 transition-colors {$page.url.pathname === '/faq' ? 'text-gold-400' : 'text-gray-400'}">FAQ</a>
 			<a href="/contacto" class="hover:text-gold-400 transition-colors {$page.url.pathname === '/contacto' ? 'text-gold-400' : 'text-gray-400'}">Contacto</a>
 			<a href="/entradas" class="bg-blood-500 hover:bg-blood-600 text-white px-5 py-2 rounded-full text-xs font-semibold transition-all hover:glow-red">Entradas</a>
@@ -52,6 +53,7 @@
 			<a href="/sobre" onclick={() => mobileOpen = false} class="py-2 hover:text-gold-400 {$page.url.pathname === '/sobre' ? 'text-gold-400' : 'text-gray-400'}">Sobre</a>
 			<a href="/galeria" onclick={() => mobileOpen = false} class="py-2 hover:text-gold-400 {$page.url.pathname === '/galeria' ? 'text-gold-400' : 'text-gray-400'}">Galería</a>
 			<a href="/reglas" onclick={() => mobileOpen = false} class="py-2 hover:text-gold-400 {$page.url.pathname === '/reglas' ? 'text-gold-400' : 'text-gray-400'}">Reglas</a>
+			<a href="/tienda" onclick={() => mobileOpen = false} class="py-2 hover:text-gold-400 {$page.url.pathname === '/tienda' ? 'text-gold-400' : 'text-gray-400'}">Tienda</a>
 			<a href="/faq" onclick={() => mobileOpen = false} class="py-2 hover:text-gold-400 {$page.url.pathname === '/faq' ? 'text-gold-400' : 'text-gray-400'}">FAQ</a>
 			<a href="/contacto" onclick={() => mobileOpen = false} class="py-2 hover:text-gold-400 {$page.url.pathname === '/contacto' ? 'text-gold-400' : 'text-gray-400'}">Contacto</a>
 			<a href="/entradas" onclick={() => mobileOpen = false} class="bg-blood-500 text-white px-5 py-3 rounded-full text-center text-xs font-semibold mt-2">Entradas</a>
@@ -99,6 +101,7 @@
 					<a href="/sobre" class="hover:text-white transition-colors">Sobre</a>
 					<a href="/galeria" class="hover:text-white transition-colors">Galería</a>
 					<a href="/reglas" class="hover:text-white transition-colors">Reglas</a>
+				<a href="/tienda" class="hover:text-white transition-colors">Tienda</a>
 					<a href="/faq" class="hover:text-white transition-colors">FAQ</a>
 					<a href="/contacto" class="hover:text-white transition-colors">Contacto</a>
 					<a href="/privacidad" class="hover:text-white transition-colors">Privacidad</a>
