@@ -12,10 +12,11 @@
 	let passcode = $state('');
 	let authError = $state('');
 
-	const ADMIN_PASSCODE = 'maskarada2026';
+	const PASSCODE = 'maskarada2026';
+	const WHATSAPP_NUMBER = '595981200255';
 
 	function login() {
-		if (passcode === ADMIN_PASSCODE) {
+		if (passcode === PASSCODE) {
 			authed = true;
 			authError = '';
 			sessionStorage.setItem('mk_admin', 'true');

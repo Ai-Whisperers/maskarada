@@ -34,7 +34,8 @@
 			<a href="/tienda" class="hover:text-gold-400 transition-colors {$page.url.pathname === '/tienda' ? 'text-gold-400' : 'text-gray-400'}">Tienda</a>
 			<a href="/faq" class="hover:text-gold-400 transition-colors {$page.url.pathname === '/faq' ? 'text-gold-400' : 'text-gray-400'}">FAQ</a>
 			<a href="/contacto" class="hover:text-gold-400 transition-colors {$page.url.pathname === '/contacto' ? 'text-gold-400' : 'text-gray-400'}">Contacto</a>
-			<a href="/entradas" class="bg-blood-500 hover:bg-blood-600 text-white px-5 py-2 rounded-full text-xs font-semibold transition-all hover:glow-red">Entradas</a>
+			<a href="/staff" class="hover:text-gold-400 transition-colors {$page.url.pathname === '/staff' ? 'text-gold-400' : 'text-gray-400'}">Staff</a>
+		<a href="/entradas" class="bg-blood-500 hover:bg-blood-600 text-white px-5 py-2 rounded-full text-xs font-semibold transition-all hover:glow-red">Entradas</a>
 		</div>
 
 		<!-- Mobile hamburger -->
@@ -56,6 +57,7 @@
 			<a href="/tienda" onclick={() => mobileOpen = false} class="py-2 hover:text-gold-400 {$page.url.pathname === '/tienda' ? 'text-gold-400' : 'text-gray-400'}">Tienda</a>
 			<a href="/faq" onclick={() => mobileOpen = false} class="py-2 hover:text-gold-400 {$page.url.pathname === '/faq' ? 'text-gold-400' : 'text-gray-400'}">FAQ</a>
 			<a href="/contacto" onclick={() => mobileOpen = false} class="py-2 hover:text-gold-400 {$page.url.pathname === '/contacto' ? 'text-gold-400' : 'text-gray-400'}">Contacto</a>
+			<a href="/staff" onclick={() => mobileOpen = false} class="hover:text-gold-400 {$page.url.pathname === '/staff' ? 'text-gold-400' : 'text-gray-400'}">Staff</a>
 			<a href="/entradas" onclick={() => mobileOpen = false} class="bg-blood-500 text-white px-5 py-3 rounded-full text-center text-xs font-semibold mt-2">Entradas</a>
 		</div>
 	</div>
@@ -105,7 +107,8 @@
 					<a href="/faq" class="hover:text-white transition-colors">FAQ</a>
 					<a href="/contacto" class="hover:text-white transition-colors">Contacto</a>
 					<a href="/privacidad" class="hover:text-white transition-colors">Privacidad</a>
-					<a href="/entradas" class="hover:text-white transition-colors">Entradas</a>
+					<a href="/staff" class="hover:text-white transition-colors">Staff</a>
+				<a href="/entradas" class="hover:text-white transition-colors">Entradas</a>
 				</div>
 			</div>
 			<div>

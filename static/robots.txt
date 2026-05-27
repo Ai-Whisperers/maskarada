@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /
+
+# Block admin
+Disallow: /admin
+
 Sitemap: https://maskarada.paragu-ai.com/sitemap.xml

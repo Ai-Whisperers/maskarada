@@ -65,7 +65,7 @@ export async function getSiteConfig(): Promise<SiteConfig> {
 
 function defaultConfig(): SiteConfig {
   return {
-    whatsapp_number: '595976569739',
+    whatsapp_number: '595981200255',
     whatsapp_text: '🎭 Hola! Quiero info sobre maškaráda',
     event_date: '2026-06-11T19:00:00-04:00',
     event_address: 'Eligio Ayala 1073, Asunción',

@@ -26,7 +26,7 @@
 
 	// Capacity
 	let capacity = $state<CapacityInfo[]>([]);
-	let whatsappNumber = $state('595976569739');
+	let whatsappNumber = $state('595981200255');
 
 	onMount(async () => {
 		capacity = await getCapacity();

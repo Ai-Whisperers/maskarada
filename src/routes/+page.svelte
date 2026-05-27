@@ -317,9 +317,9 @@
 			<a href="/entradas" class="bg-blood-500 hover:bg-blood-600 text-white px-10 py-4 rounded-full text-sm uppercase tracking-widest font-semibold transition-all hover:scale-105 glow-red">
 				Reservar ahora
 			</a>
-			<a href="https://wa.me/595981234567?text=Quiero%20info%20sobre%20Club%20maškaráda" target="_blank" rel="noopener" class="border border-white/20 hover:border-gold-400 text-gray-300 hover:text-gold-400 px-10 py-4 rounded-full text-sm uppercase tracking-widest transition-all">
-				Consultar por WhatsApp
-			</a>
+		<a href="https://wa.me/595981200255?text=Quiero%20info%20sobre%20Club%20maškaráda" target="_blank" rel="noopener" class="border border-white/20 hover:border-gold-400 text-gray-300 hover:text-gold-400 px-10 py-4 rounded-full text-sm uppercase tracking-widest transition-all">
+			Consultar por WhatsApp
+		</a>
 		</div>
 
 		<p class="text-xs text-gray-600 mt-6">📍 Eligio Ayala 1073, Asunción — 11 de junio, 2026</p>
