@@ -152,6 +152,11 @@
 	};
 </script>
 
+<svelte:head>
+	<meta name="robots" content="noindex, nofollow, noarchive" />
+	<meta name="googlebot" content="noindex, nofollow" />
+</svelte:head>
+
 {#if !authed}
 	<!-- Login screen -->
 	<div class="min-h-screen bg-[#0a0a0a] flex items-center justify-center px-4">

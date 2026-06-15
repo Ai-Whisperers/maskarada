@@ -6,7 +6,15 @@
 	let eventPassed = $state(false);
 
 	onMount(() => {
-		const eventDate = new Date('2026-06-11T19:00:00-04:00'); // 7 PM Asunción time
+		// Event date — put next event date here (YYYY-MM-DDTHH:MM:00-04:00 for Asunción)
+	const EVENT_CONFIG = {
+		date: '2026-06-11T19:00:00-04:00',
+		name: 'maškaráda — Edición Especial',
+		location: 'Eligio Ayala 1073, Asunción',
+		price: 80000
+	};
+
+	const eventDate = new Date(EVENT_CONFIG.date);
 
 		function updateCountdown() {
 			const now = new Date();
@@ -104,7 +112,13 @@
 		<!-- Countdown Timer -->
 		<div class="mb-10">
 			{#if eventPassed}
-				<p class="text-gold-400 text-lg font-semibold">¡El evento ya comenzó!</p>
+				<div class="text-center">
+					<p class="text-gold-400 text-xl font-semibold mb-3">🎉 ¡El evento ya pasó! La próxima edición está en preparación.</p>
+					<p class="text-gray-500 text-sm mb-6">Enterate primero cuando estén las entradas disponibles:</p>
+					<a href="https://wa.me/595981200255?text=Hola!%20Quiero%20enterarme%20cuando%20haya%20próximo%20evento%20maškaráda" target="_blank" rel="noopener" class="inline-flex items-center gap-2 border border-gold-400/30 text-gold-400 hover:text-white hover:border-gold-400 px-8 py-3 rounded-full text-sm uppercase tracking-widest font-semibold transition-all">
+						Notificarme cuando haya entradas
+					</a>
+				</div>
 			{:else}
 				<div class="flex items-center justify-center gap-4 md:gap-6">
 					<div class="flex flex-col items-center">
@@ -127,7 +141,7 @@
 						<span class="text-xs uppercase tracking-widest text-gray-500 mt-1">seg</span>
 					</div>
 				</div>
-				<p class="text-xs text-gray-600 mt-3 tracking-wider uppercase">Faltan para el evento</p>
+				<p class="text-xs text-gray-600 mt-3 tracking-wider uppercase">Hasta el próximo evento</p>
 			{/if}
 		</div>
 
